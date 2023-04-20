@@ -10,10 +10,10 @@
 <body>
 	<!-- the entire body must be written by student -->
 	
-	<table class="table caption-top">
+	<table class="table caption-top table-hover table-responsive">
 		<caption>List of all transcations</caption>
-		<thead>
-			<tr class="table-dark">
+		<thead class="table-dark">
+			<tr>
 				<th>#</th>
 				<th>From</th>
 				<th>To</th>
@@ -39,9 +39,11 @@
 				<td>John</td>
 				<td>2000</td>
 			</tr>
-			<tr>
-				<td class="text-end fw-bold" colspan="4" id="total">Total 4000</td>
-			</tr>
+			<tfoot>
+				<tr>
+					<td class="text-end fw-bold" colspan="3" id="total">Total 4000</td>
+				</tr>
+			</tfoot>
 		</tbody>
 	</table>
 
